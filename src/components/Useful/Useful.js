@@ -8,7 +8,8 @@ import javaBg from '../../assets/images/javaBg.png'
 
 export default function Useful({ id }) {
     return (
-        <div className={styles.content} id={id}>
+        <div className="w-100 p-4" id={id}>
+            <h1 class="display-4 text-left">ПОЛЕЗНОСТИ</h1>
             <Tabs className={styles.navTabs} defaultActiveKey="home" id="uncontrolled-tab-example">
                 <Tab eventKey="home" title="Home">
                     <Carousel>
