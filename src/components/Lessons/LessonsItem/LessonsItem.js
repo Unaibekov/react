@@ -1,5 +1,4 @@
 import React from 'react'; 
-import htmlBg from '../../../assets/images/htmlBg.jpg'
 
 import styles from '../LessonsItem/LessonItems.module.css'; 
 
@@ -7,7 +6,7 @@ const LessonsItem=(props) => {
     return (
         <div className={styles.item}>
             <i className={styles.line}></i>
-            <img src={htmlBg} alt='htmlBg' />
+            <img src={props.image} alt='htmlBg' />
             <div className={styles.overlay}></div>
             <div className={styles.title}>{props.title}</div>
             <svg className={styles.icon} viewbox="0 0 28 25">
