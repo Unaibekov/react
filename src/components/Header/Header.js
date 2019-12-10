@@ -1,43 +1,42 @@
-import React from "react";
-import {
-  Container,
-  Icon,
-  Link,
-  List,
-  ListItem,
-  Offcanvas,
-  OffcanvasContainer,
-  Navbar,
-  NavItem,
-  NavbarDropdown,
-  NavbarContainer,
-  NavbarSticky,
-  Section
-} from "uikit-react";
+import React, { Component } from "react";
+import logo from '../../assets/images/react-logo.svg'
+import styles from '../Header/Header.module.css'
+import { Link, animateScroll as scroll } from "react-scroll";
 
-const Header = () => {
-    return (
-        <NavbarSticky>
-            <NavbarContainer>
-                <Navbar left>
-                    <NavItem>
-                        <Link>Dropdown</Link>
-                        <NavbarDropdown>
-                        <NavItem>
-                            <Link href="#">Link</Link>
-                        </NavItem>
-                        </NavbarDropdown>
-                    </NavItem>
-                    <NavItem>
-                        <Link href="#">Link</Link>
-                    </NavItem>
-                    <NavItem>
-                        <Link href="#">Link</Link>
-                    </NavItem>
-                </Navbar>
-            </NavbarContainer>
-        </NavbarSticky>
-    );
-}
+export default class Header extends Component {
 
-export default Header;
+scrollToTop = () => {
+    scroll.scrollToTop();
+};
+
+    render() {
+        
+        return (
+            <nav className={styles.nav} id="navbar">
+                <div className={styles.navContent}>
+                    <img
+                        src={logo}
+                        className={styles.navLogo}
+                        alt="Logo"
+                        onClick={this.scrollToTop}
+                    />
+                    <ul className={styles.navItems}>
+                        <li className={styles.navItem}>
+                            <Link
+                                activeClass={styles.active}
+                                to="Lessons"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                КУРСЫ
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        );
+    };
+};
+
