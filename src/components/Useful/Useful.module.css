@@ -1,0 +1,11 @@
+.content {
+    background: white;
+    width: 100%;
+    height: 500px;
+}
+
+.navTabs {
+    border-bottom: none!important;
+    justify-content: flex-end;
+
+}
