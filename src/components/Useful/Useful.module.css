@@ -17,3 +17,10 @@
     background-color: none!important;
     border-color: none!important;
 }
+
+hr {
+    border: 5px solid blue;
+    width: 5%;
+    
+
+}

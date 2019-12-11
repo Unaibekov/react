@@ -13,18 +13,25 @@ export default class Header extends Component {
     render() {
 
         return (
-            <Navbar sticky="top" bg="light"  expand="lg">
-                <img
-                    src={logo}
-                    className={styles.navLogo}
-                    alt="Logo"
+            <Navbar sticky="top" bg="light" expand="lg">
+                <Navbar.Brand 
                     onClick={this.scrollToTop}
-                />
+                    style={{ cursor: 'pointer' }}
+                    >
+                    <img
+                        alt="logo"
+                        src={logo}
+                        width="50"
+                        height="50"
+                        className="d-inline-block align-middle"
+                    />
+                    ШПАРГАЛКА
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav>
                         <Link
-                            style={{cursor:'pointer'}}
+                            style={{ cursor: 'pointer' }}
                             className="mr3"
                             activeClass={styles.active}
                             to="Lessons"
@@ -36,7 +43,7 @@ export default class Header extends Component {
                             КУРСЫ
                         </Link>
                         <Link
-                            style={{cursor:'pointer'}}
+                            style={{ cursor: 'pointer' }}
                             activeClass={styles.active}
                             to="Useful"
                             spy={true}

@@ -6,7 +6,7 @@ const LessonsItem=(props) => {
     return (
         <div className={styles.item}>
             <i className={styles.line}></i>
-            <img src={props.image} alt='htmlBg' />
+            <img className="img-responsive" src={props.image} alt='LessonsImage' />
             <div className={styles.overlay}></div>
             <div className={styles.title}>{props.title}</div>
             <svg className={styles.icon} viewbox="0 0 28 25">

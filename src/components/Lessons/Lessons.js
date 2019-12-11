@@ -8,24 +8,20 @@ import LessonsItem from './LessonsItem/LessonsItem';
 
 
 export default function Lessons({ id }) {
+
+    let lessonsData = [
+        {title:'HTML', image:htmlBg},
+        {title:'CSS', image:cssBg},
+        {title:'JavaScript', image:javaBg},
+        {title:'React', image:reactBg}
+    ]
+
+    let lessonsElement = lessonsData
+        .map ( lessons => <LessonsItem image={lessons.image} title={lessons.title} />)
+
     return (
         <div className={`${styles.dFlex} ${styles.flexWrap}`} id={id}>
-            <LessonsItem
-                image={htmlBg}
-                title='HTML'
-            />
-            <LessonsItem 
-                image={cssBg}
-                title='CSS'
-            />
-            <LessonsItem
-                image={javaBg}
-                title='JavaScript'
-            />
-            <LessonsItem 
-                image={reactBg}
-                title='React'
-            />
+            {lessonsElement}        
         </div>
         
     );
