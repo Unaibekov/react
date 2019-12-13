@@ -1,15 +1,15 @@
 import React from 'react';
 import styles from '../Useful/Useful.module.css';
 import { Tab, Tabs, Carousel, Row, Container, Col, Image } from 'react-bootstrap';
-import reactBg from '../../assets/images/reactBg.png';
-import cssBg from '../../assets/images/cssBg.jpg';
-import javaBg from '../../assets/images/javaBg.png'
+import reactBg from '../../../assets/images/reactBg.png';
+import cssBg from '../../../assets/images/cssBg.jpg';
+import javaBg from '../../../assets/images/javaBg.png'
 
 
 export default function Useful({ id }) {
     return (
         <div className="w-100 p-4" id={id}>
-            <h1 class="display-4 text-left">ПОЛЕЗНОСТИ</h1>
+            <h1 className="display-4 text-left">ПОЛЕЗНОСТИ</h1>
             <hr />
             <Tabs className={styles.navTabs} defaultActiveKey="home" id="uncontrolled-tab-example">
                 <Tab eventKey="home" title="HTML">

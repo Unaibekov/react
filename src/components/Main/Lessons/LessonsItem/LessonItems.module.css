@@ -71,7 +71,7 @@
       height: 5px;
       display: block;
       /* margin: 10px 0; */
-      background-color: #fff;
+      background: linear-gradient(45deg, rgba(0,129,255,1) 0%, rgb(0, 247, 255) 100%);
       bottom: 0px;
       width: 0%;
       transition: width 0.3s;

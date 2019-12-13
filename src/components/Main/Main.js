@@ -1,13 +1,21 @@
-import React from 'react';
-// import LeninBg from '../../assets/images/leninBg.jpg'
-import styles from '../Main/Main.module.css';
+import React from 'react'; 
+// import styles from '../Main/Main.module.css';
+import MainBg from './MainBg/MainBg';
+import Lessons from './Lessons/Lessons';
+import Useful from './Useful/Useful';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
-const ReactLess= () => {
+const Main = () => {
     return (
-        <div className={styles.main}>            
-            <div className={styles.title}>Учиться,<br/>учиться<br/>и еще раз<br/>УЧИТЬСЯ!!!</div>
+        <div>
+            <Header />
+            <MainBg />
+            <Lessons id="lessons"/>
+            <Useful id="useful" />
+            <Footer />
         </div>
-    )
-}
+    );
+};
 
-export default ReactLess;
+export default Main;
