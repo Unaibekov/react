@@ -1,0 +1,12 @@
+.bg {
+    width: 100%;
+    background: url(../../assets/images/JavaBg.png) no-repeat center center / cover;
+    height: 100vh;
+}
+
+.back {
+    width: 100px;
+    height: 100px; 
+    background: white;
+    position: absolute;
+}
