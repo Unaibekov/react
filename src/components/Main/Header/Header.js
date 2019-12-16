@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import logo from '../../../assets/images/react-logo.svg'
+// import logo from '../../assets/images/react-logo.svg'
 import styles from '../Header/Header.module.css'
-import { Link, animateScroll as scroll } from "react-scroll";
-import { Navbar, Nav } from 'react-bootstrap';
-import { slide as Menu } from 'react-burger-menu'
+// import { Link } from 'react-router-dom';
+import { slide as Menu } from 'react-burger-menu';
+import LinksItem from './LinksItem/LinksItem';
+// import LessonsItem from '../Lessons/LessonsItem/LessonsItem';
 
 export default class Header extends Component {
 
@@ -11,94 +12,46 @@ export default class Header extends Component {
         event.preventDefault();
     };
 
-    scrollToTop = () => {
-        scroll.scrollToTop();
-    };
-
-    constructor (props) {
+    constructor(props) {
         super(props)
         this.state = {
-        menuOpen: false
-    }
-    }
-
-    
-    handleStateChange (state) {
-    this.setState({menuOpen: state.isOpen})  
-    }
-    
-    closeMenu () {
-    this.setState({menuOpen: false})
+            menuOpen: false
+        }
     }
 
-    toggleMenu () {
-    this.setState(state => ({menuOpen: !state.menuOpen}))
+    handleStateChange(state) {
+        this.setState({ menuOpen: state.isOpen })
     }
-    
+
+    closeMenu() {
+        this.setState({ menuOpen: false })
+    }
+
+    toggleMenu() {
+        this.setState(state => ({ menuOpen: !state.menuOpen }))
+    }
 
     render() {
 
+        let linksData = [
+            { title: 'HTML', path: 'htmlless' },
+            { title: 'CSS', path: 'cssless' },
+            { title: 'JavaScript', path: 'javaless' },
+            { title: 'React', path: 'reactless' }    
+          ]
+        
+          let linksElement = linksData
+            .map(links => <LinksItem title={links.title} path={links.path} />)
+
         return (
             <div>
-                <Menu>
-                    <Link
-                        style={{ cursor: 'pointer' }}
-                        className="mr3"
-                        activeClass={styles.active}
-                        to="Lessons"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        onClick={() => this.closeMenu()}
-                    >
-                        КУРСЫ
-                    </Link>
-                    <a onClick={this.showSettings} className="menu-item--small" href="">Settings</a>
+                <Menu width={"100%"}>
+                    <div className={styles.item}>
+                        {/* <Link to='/reactless'>ertrerter</Link> */}
+                        { linksElement }
+
+                    </div>
                 </Menu>
-                {/* <Navbar sticky="top" bg="light" expand="lg">
-                    <Navbar.Brand
-                        onClick={this.scrollToTop}
-                        style={{ cursor: 'pointer' }}
-                    >
-                        <img
-                            alt="logo"
-                            src={logo}
-                            width="50"
-                            height="50"
-                            className="d-inline-block align-middle"
-                        />
-                        ШПАРГАЛКА
-                </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
-                        <Nav>
-                            <Link
-                                style={{ cursor: 'pointer' }}
-                                className="mr3"
-                                activeClass={styles.active}
-                                to="Lessons"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={500}
-                            >
-                                КУРСЫ
-                    </Link>
-                            <Link
-                                style={{ cursor: 'pointer' }}
-                                activeClass={styles.active}
-                                to="Useful"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={500}
-                            >
-                                ПОЛЕЗНОСТИ
-                    </Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Navbar> */}
             </div>
         );
     };

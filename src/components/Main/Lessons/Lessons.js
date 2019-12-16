@@ -6,21 +6,23 @@ import reactBg from '../../../assets/images/reactBg.png';
 import javaBg from '../../../assets/images/javaBg.png';
 import LessonsItem from './LessonsItem/LessonsItem';
 
-export default function Lessons({ id }) {
+const Lessons = () => {
 
   let lessonsData = [
-    { id:1, title: 'HTML', image: htmlBg, path: 'htmlless' },
-    { id:2, title: 'CSS', image: cssBg, path: 'cssless' },
-    { id:3, title: 'JavaScript', image: javaBg, path: 'javaless' },
-    { id:4, title: 'React', image: reactBg, path: 'reactless' }
+    { title: 'HTML', image: htmlBg, path: 'htmlless' },
+    { title: 'CSS', image: cssBg, path: 'cssless' },
+    { title: 'JavaScript', image: javaBg, path: 'javaless' },
+    { title: 'React', image: reactBg, path: 'reactless' }    
   ]
 
   let lessonsElement = lessonsData
     .map(lessons => <LessonsItem image={lessons.image} title={lessons.title} path={lessons.path} />)
 
   return (
-    <div className={`${styles.dFlex} ${styles.flexWrap}`} id={id}>
+    <div className={`${styles.dFlex} ${styles.flexWrap}`}>
       { lessonsElement }
     </div>
   );
 };
+
+export default Lessons;

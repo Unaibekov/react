@@ -9,7 +9,7 @@ import javaBg from '../../../assets/images/javaBg.png'
 export default function Useful({ id }) {
     return (
         <div className="w-100 p-4" id={id}>
-            <h1 className="display-4 text-left">ПОЛЕЗНОСТИ</h1>
+            <h1 className="display-6 text-left">ПОЛЕЗНОСТИ</h1>
             <hr />
             <Tabs className={styles.navTabs} defaultActiveKey="home" id="uncontrolled-tab-example">
                 <Tab eventKey="home" title="HTML">

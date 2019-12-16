@@ -11,11 +11,12 @@ const Main = () => {
         <div>
             <Header />
             <MainBg />
-            <Lessons id="lessons"/>
-            <Useful id="useful" />
+            <Lessons />
+            <Useful />
             <Footer />
         </div>
     );
 };
 
 export default Main;
+
