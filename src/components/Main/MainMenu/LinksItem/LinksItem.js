@@ -6,7 +6,6 @@ const LinksItem = (props) => {
 
   return (
     <Link className={styles.item} to={props.path}>
-      <i className={styles.line}></i>
       <div className={styles.title}>{props.title}</div>
     </Link>
   )

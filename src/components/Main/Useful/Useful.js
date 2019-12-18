@@ -1,67 +1,63 @@
-import React from 'react';
-import styles from '../Useful/Useful.module.css';
-import { Tab, Tabs, Carousel, Row, Container, Col, Image } from 'react-bootstrap';
-import reactBg from '../../../assets/images/reactBg.png';
-import cssBg from '../../../assets/images/cssBg.jpg';
-import javaBg from '../../../assets/images/javaBg.png'
+import React, { Component } from "react";
+import Slider from "react-slick";
+import styles from '../Useful/Useful.module.css'
+import prev from '../../../assets/images/left-arrow.svg';
+import next from '../../../assets/images/right-arrow.svg';
 
+export default class Useful extends Component {
+    constructor(props) {
+        super(props);
+        this.next = this.next.bind(this);
+        this.previous = this.previous.bind(this);
+    }
+    next() {
+        this.slider.slickNext();
+    }
+    previous() {
+        this.slider.slickPrev();
+    }
+    render() {
+        const settings = {
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            slickNext: false,
+            slickPrev: false
 
-export default function Useful({ id }) {
-    return (
-        <div className="w-100 p-4" id={id}>
-            <h1 className="display-6 text-left">ПОЛЕЗНОСТИ</h1>
-            <hr />
-            <Tabs className={styles.navTabs} defaultActiveKey="home" id="uncontrolled-tab-example">
-                <Tab eventKey="home" title="HTML">
-                    <Carousel ride="false">
-                        <Carousel.Item>
-                            <Container>
-                                <Row>
-                                    <Col xs={2} md={2}>
-                                    <Image src={reactBg} rounded />
-                                    </Col>
-                                    <Col xs={2} md={2}>
-                                    <Image src={reactBg} rounded />
-                                    </Col>
-                                </Row>
-                            </Container>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={cssBg}
-                                alt="Third slide"
-                            />
-
-                            <Carousel.Caption>
-                                <h3>Second slide label</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={javaBg}
-                                alt="Third slide"
-                            />
-
-                            <Carousel.Caption>
-                                <h3>Third slide label</h3>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>
-
-                </Tab>
-                <Tab eventKey="profile" title="CSS">
-                </Tab>
-                <Tab eventKey="contact" title="JavaScript">
-                </Tab>
-                <Tab eventKey="profile" title="Rreact">
-                </Tab>
-            </Tabs>
-
-
-        </div>
-    );
-};
+        };
+        return (
+            <div>
+                <div className={`${styles.header} d-flex justify-content-betveen align-items-center`}>
+                    <div>Ресурсы</div>
+                    <div className="d-flex">
+                        <img src={prev} alt="" onClick={this.previous} className={styles.prev} />
+                        <img src={next} alt="" onClick={this.next} className={styles.next} />
+                    </div>
+                </div>
+                <Slider ref={c => (this.slider = c)} {...settings} className={styles.slide}>
+                    <div key={1}>
+                        <h3>1</h3>
+                    </div>
+                    <div key={2}>
+                        <h3>2</h3>
+                    </div>
+                    <div key={3}>
+                        <h3>3</h3>
+                    </div>
+                    <div key={4}>
+                        <h3>4</h3>
+                    </div>
+                    <div key={5}>
+                        <h3>5</h3>
+                    </div>
+                    <div key={6}>
+                        <h3>6</h3>
+                    </div>
+                </Slider>
+                
+            </div>
+        );
+    }
+}

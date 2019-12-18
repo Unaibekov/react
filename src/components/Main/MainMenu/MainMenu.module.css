@@ -1,0 +1,186 @@
+.logo {
+  width: 50px;
+}
+
+item {
+  border: 3px solid white;
+  height: 100px;
+  width: 200px;
+}
+
+
+.dflex {
+  display: flex;
+  align-items: center;
+}
+
+.jcb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jca {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jcs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.hiddenMenu {
+  display: block;
+  position: fixed;
+  width: 320px;
+  background: #0A4F7F;
+  background: -webkit-linear-gradient(bottom, #0A4F7F, #274076);
+  background: -moz-linear-gradient(bottom, #0A4F7F, #274076);
+  background: linear-gradient(to top, #0A4F7F, #274076);
+
+  height: 100%;
+  top: 0;
+  left: -320px;
+  transition: left .4s;
+  z-index: 1;
+  box-shadow: -16px 0px 46px 10px #1f42627d;
+}
+
+.hiddenMenuTicker {
+  display: none;
+}
+.btnMenu {
+  position: fixed;
+  display: block;
+  color: #fff;
+  cursor: pointer;
+  transition: right .23s;
+  z-index: 3;
+  width: 25px;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  left: 15px;
+  top: 15px;
+}
+
+.btnMenu span {
+  display: block;
+  height: 3px;
+  width: 25px;
+  background-color: rgb(0, 0, 0);
+  margin: 6px 0 0;
+  transition: all .1s linear .10s;
+  position: relative;
+  border-radius: 10px;
+}
+
+.btnMenu span.first {
+  margin-top: 0;
+}
+.hiddenMenuTicker:checked ~ .btnMenu {
+  right: 10px;
+}
+.hiddenMenuTicker:checked ~ .hiddenMenu {
+  left: 0px;
+}
+.hiddenMenuTicker:checked ~ .btnMenu span.first {
+  transform: rotate(45deg);
+  top: 8px;
+}
+.hiddenMenuTicker:checked ~ .btnMenu span.second {
+  opacity: 0;
+}
+
+.hiddenMenuTicker:checked ~ .btnMenu span.third {
+  transform: rotate(-45deg);
+  top: -10px;
+}
+
+
+
+
+.link{
+  
+  height:auto;  
+  width:auto;
+  margin-top:15px;
+  padding:5px;
+  text-align:left;
+  text-decoration:none;
+  color:white;
+  cursor:pointer;
+   
+}
+
+.link:hover{
+  animation: links 0.5s forwards ease-in-out;
+}
+@keyframes links{
+  0%{
+    width:0%;
+    padding-left:20px;
+    opacity:0;
+    margin-left:0px;
+    background:#E91E63;
+  }
+
+  100%{
+    width: 100%;
+    padding-left:20px;
+    opacity:1;
+    margin-left:10px;
+    background:#E91E63;
+  }
+}
+
+
+
+
+@media (max-width: 1024px)
+{
+  .hiddenMenu {
+    width: 100%;
+    left: -100%;
+    transition: left .4s;
+    box-shadow: unset;
+  }
+
+  .mainMenuContent {
+    height: 58%;
+  }
+
+  .btnMenu { 
+    display: block;
+    min-width: unset;
+  }
+
+  label {
+    padding: 10px;
+    min-width: 90px;
+  }
+
+  .profile {
+    height: 35%;
+  }
+
+  .exit {
+    height: 7%;
+  }
+}

@@ -1,0 +1,11 @@
+.title {
+    color: white;
+    font-size: 40px;
+    font-family: cuprum;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.title:hover {
+    color: lightblue;
+}

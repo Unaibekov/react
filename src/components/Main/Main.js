@@ -3,13 +3,13 @@ import React from 'react';
 import MainBg from './MainBg/MainBg';
 import Lessons from './Lessons/Lessons';
 import Useful from './Useful/Useful';
-import Header from './Header/Header';
+import MainMenu from './MainMenu/MainMenu';
 import Footer from './Footer/Footer';
 
 const Main = () => {
     return (
         <div>
-            <Header />
+            <MainMenu />
             <MainBg />
             <Lessons />
             <Useful />

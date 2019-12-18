@@ -9,7 +9,7 @@ import LessonsItem from './LessonsItem/LessonsItem';
 const Lessons = () => {
 
   let lessonsData = [
-    { title: 'HTML', image: htmlBg, path: 'htmlless' },
+    { title: 'HTML', image: htmlBg, path: 'htmlless', },
     { title: 'CSS', image: cssBg, path: 'cssless' },
     { title: 'JavaScript', image: javaBg, path: 'javaless' },
     { title: 'React', image: reactBg, path: 'reactless' }    
