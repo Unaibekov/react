@@ -50,11 +50,7 @@ item {
   display: block;
   position: fixed;
   width: 320px;
-  background: #0A4F7F;
-  background: -webkit-linear-gradient(bottom, #0A4F7F, #274076);
-  background: -moz-linear-gradient(bottom, #0A4F7F, #274076);
-  background: linear-gradient(to top, #0A4F7F, #274076);
-
+  background: #002eaf;
   height: 100%;
   top: 0;
   left: -320px;
@@ -112,6 +108,8 @@ item {
   transform: rotate(-45deg);
   top: -10px;
 }
+
+
 
 
 
