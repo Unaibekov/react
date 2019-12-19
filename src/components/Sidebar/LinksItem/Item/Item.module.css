@@ -1,4 +1,4 @@
-.title {
+.item {
     color: white;
     font-size: 40px;
     font-family: cuprum;
@@ -6,6 +6,6 @@
     margin-left: 15px;
 }
 
-.title:hover {
+.item:hover {
     color: lightblue;
 }
