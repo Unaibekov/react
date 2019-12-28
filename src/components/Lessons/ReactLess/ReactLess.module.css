@@ -1,6 +1,6 @@
 .bg {
     height: 100vh;
-    margin-left: 320px;
+    background: url(../../../assets/images/reactBg.png) no-repeat center center / cover;
 }
 
 .back {
@@ -9,8 +9,3 @@
     background: white;
     position: absolute;
 }
-
-.hiddenMenu {
-    position: absolute;
-    left: 320px;
-  }

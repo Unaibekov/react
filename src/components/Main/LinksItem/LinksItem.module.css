@@ -4,6 +4,7 @@
     font-family: cuprum;
     text-align: left;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .item:hover {

@@ -29,12 +29,24 @@ a {
   justify-content: space-between;
 } 
 
+.justify-content-end {
+  justify-content: flex-end;
+} 
+
+.column {
+  flex-direction: column;
+}
+
 .overline {
   text-decoration: overline;
 }
 
 li {
   list-style: none;
+}
+
+.m3 {
+  margin: 20px;
 }
 
 .mr3 {

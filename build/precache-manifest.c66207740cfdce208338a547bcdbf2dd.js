@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e1c22f723accf6284e479fa009a5960",
+    "revision": "2cd35ec71c9174b81a5ab6b7e1782869",
     "url": "/react/index.html"
   },
   {
-    "revision": "6b666f15db55c912e480",
+    "revision": "edf3f223f1b2755f43c4",
     "url": "/react/static/css/2.44ea01ec.chunk.css"
   },
   {
-    "revision": "7223635f66e2710fc41f",
-    "url": "/react/static/css/main.d843a840.chunk.css"
+    "revision": "a0217d89e97bac1478a3",
+    "url": "/react/static/css/main.fbde079c.chunk.css"
   },
   {
-    "revision": "6b666f15db55c912e480",
-    "url": "/react/static/js/2.9c8ecd16.chunk.js"
+    "revision": "edf3f223f1b2755f43c4",
+    "url": "/react/static/js/2.640fed71.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/react/static/js/2.9c8ecd16.chunk.js.LICENSE"
+    "url": "/react/static/js/2.640fed71.chunk.js.LICENSE"
   },
   {
-    "revision": "7223635f66e2710fc41f",
-    "url": "/react/static/js/main.30b633b4.chunk.js"
+    "revision": "a0217d89e97bac1478a3",
+    "url": "/react/static/js/main.639bfc35.chunk.js"
   },
   {
     "revision": "5167de68795de59d241c",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ed69dc44c31fcf19d5101730f657c01d",
     "url": "/react/static/media/leninBg.ed69dc44.jpg"
-  },
-  {
-    "revision": "91f551a1ed6bf78427aa2d5ef0420925",
-    "url": "/react/static/media/menu.91f551a1.svg"
   },
   {
     "revision": "518d4ccc23ac64c461a5c7b4048c0a93",

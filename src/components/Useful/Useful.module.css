@@ -1,40 +1,98 @@
 .header {
-    padding: 20px;
-    text-align: left;
-    font-size: 40px;
+  padding: 20px;
+  text-align: left;
+  font-size: 40px;
 }
 
 .slide {
-    width: 100%;
-    background: lightblue;
-    height: 500px;
+  width: 100%;
+  background: lightblue;
+  height: 500px;
 }
 
 .prev {
-    height: 50px;
-    cursor: pointer;
-    transform: translateX(0px);
-    transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  height: 50px;
+  cursor: pointer;
+  transform: translateX(0px);
+  transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .prev:hover {
-    transform: translateX(-10px);
-    transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transform: translateX(-10px);
+  transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .next {
-    height: 50px;
-    cursor: pointer;
-    transform: translateX(0px);
-    transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  height: 50px;
+  cursor: pointer;
+  transform: translateX(0px);
+  transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .next:hover {
-    transform: translateX(10px);
-    transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transform: translateX(10px);
+  transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .prev:hover path,
 .next:hover path {
-    fill: cyan;
+  fill: url(#my-cool-gradient) #447799;
+  transition: transform 0.6s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+stop {
+  -webkit-animation: colors 12s infinite;
+  animation: colors 12s infinite;
+}
+
+.stop-2 {
+  -webkit-animation-delay: -3s;
+  animation-delay: -3s;
+}
+
+.stop-3 {
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes colors {
+  15% {
+    stop-color: crimson;
+  }
+  30% {
+    stop-color: gold;
+  }
+  45% {
+    stop-color: teal;
+  }
+  60% {
+    stop-color: yellowgreen;
+  }
+  75% {
+    stop-color: orangered;
+  }
+  90% {
+    stop-color: purple;
+  }
+}
+
+@keyframes colors {
+  15% {
+    stop-color: crimson;
+  }
+  30% {
+    stop-color: gold;
+  }
+  45% {
+    stop-color: teal;
+  }
+  60% {
+    stop-color: yellowgreen;
+  }
+  75% {
+    stop-color: orangered;
+  }
+  90% {
+    stop-color: purple;
+  }
 }

@@ -1,9 +1,9 @@
 import React from 'react'; 
-import styles from '../ReactLess/ReactLess.module.css'; 
+import styles from '../JavaLess/JavaLess.module.css'; 
 import { Link } from 'react-router-dom';
 
 
-const ReactLess = () => {
+const JavaLess = () => {
     return (
         <div className={styles.bg}>
             <Link className={styles.back} to='/'></Link>
@@ -11,4 +11,4 @@ const ReactLess = () => {
     )
 }
 
-export default ReactLess;
+export default JavaLess;

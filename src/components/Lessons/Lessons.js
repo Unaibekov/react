@@ -1,28 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styles from '../Lessons/Lessons.module.css';
-import htmlBg from '../../assets/images/htmlBg.jpg';
-import cssBg from '../../assets/images/cssBg.jpg';
-import reactBg from '../../assets/images/reactBg.png';
-import javaBg from '../../assets/images/javaBg.png';
+import {connect} from 'react-redux';
 import LessonsItem from './LessonsItem/LessonsItem';
 
-const Lessons = () => {
+class Lessons extends Component {
+  showLink () {
+    return this.props.links.map ((link) => {
+      return (
+        <LessonsItem image={link.image} title={link.title} path={link.path} />
+      )
+    })
+  }
+  render () {
+    return (
+      <div className={`${styles.dFlex} ${styles.flexWrap}`}>
+        {this.showLink ()}
+      </div>
+    );
+  }
+}
 
-  const lessonsData = [
-    { title: 'HTML', image: htmlBg, path: 'htmlless', },
-    { title: 'CSS', image: cssBg, path: 'cssless' },
-    { title: 'JavaScript', image: javaBg, path: 'javaless' },
-    { title: 'React', image: reactBg, path: 'reactless' }    
-  ]
+function mapStateToProps (state) {
+  return {
+    links: state.links
+  };
+}
 
-  const lessonsElement = lessonsData
-    .map(lessons => <LessonsItem image={lessons.image} title={lessons.title} path={lessons.path} />)
-
-  return (
-    <div className={`${styles.dFlex} ${styles.flexWrap}`}>
-      { lessonsElement }
-    </div>
-  );
-};
-
-export default Lessons;
+export default connect(mapStateToProps)(Lessons);

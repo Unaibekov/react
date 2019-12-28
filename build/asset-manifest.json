@@ -1,32 +1,31 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.d843a840.chunk.css",
-    "main.js": "/react/static/js/main.30b633b4.chunk.js",
-    "main.js.map": "/react/static/js/main.30b633b4.chunk.js.map",
+    "main.css": "/react/static/css/main.fbde079c.chunk.css",
+    "main.js": "/react/static/js/main.639bfc35.chunk.js",
+    "main.js.map": "/react/static/js/main.639bfc35.chunk.js.map",
     "runtime-main.js": "/react/static/js/runtime-main.cbcb79aa.js",
     "runtime-main.js.map": "/react/static/js/runtime-main.cbcb79aa.js.map",
     "static/css/2.44ea01ec.chunk.css": "/react/static/css/2.44ea01ec.chunk.css",
-    "static/js/2.9c8ecd16.chunk.js": "/react/static/js/2.9c8ecd16.chunk.js",
-    "static/js/2.9c8ecd16.chunk.js.map": "/react/static/js/2.9c8ecd16.chunk.js.map",
+    "static/js/2.640fed71.chunk.js": "/react/static/js/2.640fed71.chunk.js",
+    "static/js/2.640fed71.chunk.js.map": "/react/static/js/2.640fed71.chunk.js.map",
     "index.html": "/react/index.html",
-    "precache-manifest.f50db46611aa9eaecba39ad9f1129604.js": "/react/precache-manifest.f50db46611aa9eaecba39ad9f1129604.js",
+    "precache-manifest.c66207740cfdce208338a547bcdbf2dd.js": "/react/precache-manifest.c66207740cfdce208338a547bcdbf2dd.js",
     "service-worker.js": "/react/service-worker.js",
     "static/css/2.44ea01ec.chunk.css.map": "/react/static/css/2.44ea01ec.chunk.css.map",
-    "static/css/main.d843a840.chunk.css.map": "/react/static/css/main.d843a840.chunk.css.map",
-    "static/js/2.9c8ecd16.chunk.js.LICENSE": "/react/static/js/2.9c8ecd16.chunk.js.LICENSE",
+    "static/css/main.fbde079c.chunk.css.map": "/react/static/css/main.fbde079c.chunk.css.map",
+    "static/js/2.640fed71.chunk.js.LICENSE": "/react/static/js/2.640fed71.chunk.js.LICENSE",
     "static/media/cssBg.jpg": "/react/static/media/cssBg.2c03cc18.jpg",
     "static/media/htmlBg.jpg": "/react/static/media/htmlBg.35965b29.jpg",
     "static/media/javaBg.png": "/react/static/media/javaBg.b7608a65.png",
     "static/media/MainBg.module.css": "/react/static/media/leninBg.ed69dc44.jpg",
-    "static/media/menu.svg": "/react/static/media/menu.91f551a1.svg",
     "static/media/reactBg.png": "/react/static/media/reactBg.518d4ccc.png",
     "static/media/slick-theme.css": "/react/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cbcb79aa.js",
     "static/css/2.44ea01ec.chunk.css",
-    "static/js/2.9c8ecd16.chunk.js",
-    "static/css/main.d843a840.chunk.css",
-    "static/js/main.30b633b4.chunk.js"
+    "static/js/2.640fed71.chunk.js",
+    "static/css/main.fbde079c.chunk.css",
+    "static/js/main.639bfc35.chunk.js"
   ]
 }

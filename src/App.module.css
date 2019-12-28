@@ -2,14 +2,84 @@
   text-align: center;
 }
 
-.App::-webkit-scrollbar-track {
-  background-color: none;
+.sidebar {  
+  background: #002eaf;
+  width: 320px;
 }
 
-.App::-webkit-scrollbar {
-  width: 7px;
+.close {
+  cursor: pointer;
 }
 
-.App::-webkit-scrollbar-thumb{
-  background-color: #9cb5be;
+.close path{
+  fill: white;
+}
+
+.menu {
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.menu path {
+  fill: url(#my-cool-gradient) #447799;
+}
+
+stop {
+  -webkit-animation: colors 12s infinite;
+  animation: colors 12s infinite;
+}
+
+.stop-2 {
+  -webkit-animation-delay: -3s;
+  animation-delay: -3s;
+}
+
+.stop-3 {
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes colors {
+  15% {
+    stop-color: crimson;
+  }
+  30% {
+    stop-color: gold;
+  }
+  45% {
+    stop-color: teal;
+  }
+  60% {
+    stop-color: yellowgreen;
+  }
+  75% {
+    stop-color: orangered;
+  }
+  90% {
+    stop-color: purple;
+  }
+}
+
+@keyframes colors {
+  15% {
+    stop-color: crimson;
+  }
+  30% {
+    stop-color: gold;
+  }
+  45% {
+    stop-color: teal;
+  }
+  60% {
+    stop-color: yellowgreen;
+  }
+  75% {
+    stop-color: orangered;
+  }
+  90% {
+    stop-color: purple;
+  }
 }
