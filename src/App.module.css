@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.item {
+  color: white;
+  font-size: 40px;
+  font-family: cuprum;
+  text-align: left;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: lightblue;
+}
+
 .sidebar {  
   background: #002eaf;
   width: 320px;

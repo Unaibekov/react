@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Provider } from 'react-redux'
 import { createStore } from 'redux';
 import allReducers from './redux/redux-store';
@@ -68,7 +68,8 @@ class App extends React.Component {
                   <path d={svg['close']} />
                 </svg>
               </div>,
-              <LinksItem />]
+              <Link className={styles.item} to='/' onClick={() => this.onSetSidebarOpen(false)}>Home</Link>,
+              <LinksItem closeSidebar={() => this.onSetSidebarOpen(false)} />]
             }
             open={this.state.sidebarOpen}
             // docked={this.state.sidebarDocked}
