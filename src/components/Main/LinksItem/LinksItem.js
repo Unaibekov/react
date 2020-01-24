@@ -14,7 +14,7 @@ class LinksItem extends Component {
   }
   render () {
     return (
-      <div className="d-flex column">
+      <div className="d-flex column" onClick={this.props.closeSidebar}>
         {this.showLink ()}
       </div>
     );
