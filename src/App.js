@@ -14,7 +14,7 @@ import CssLess from './components/Lessons/CssLess/CssLess';
 import JavaLess from './components/Lessons/JavaLess/JavaLess';
 import ReactLess from './components/Lessons/ReactLess/ReactLess';
 import { LinksItem } from './components/Main/LinksItem/LinksItem';
-import Main from './components/Main/Main';
+import { Main } from './components/Main/Main';
 
 const store = createStore(allReducers);
 

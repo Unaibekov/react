@@ -5,18 +5,15 @@ import { Lessons } from "../Lessons/Lessons";
 import Useful from "../Useful/Useful";
 import PageProgress from 'react-page-progress';
 import { useSelector } from 'react-redux';
-// import * as Scroll from 'react-scroll';
-import { Link } from 'react-scroll'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
-
-
-const Main = () => {
+export const Main = () => {
     const svgs = useSelector(state => state.svgs)
     
-    return (
-        
+    return (        
         <div>
             <Link 
+                activeClass={styles.active}
                 to="lessons"
                 spy={true} 
                 smooth={true} 
@@ -37,4 +34,3 @@ const Main = () => {
         </div>
     );
 }
-export default Main;
