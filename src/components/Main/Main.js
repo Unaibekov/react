@@ -1,7 +1,7 @@
 import React from "react";
 import styles from '../Main/Main.module.css';
 import MainBg from "../MainBg/MainBg";
-import Lessons from "../Lessons/Lessons";
+import { Lessons } from "../Lessons/Lessons";
 import Useful from "../Useful/Useful";
 import PageProgress from 'react-page-progress';
 import { useSelector } from 'react-redux';
