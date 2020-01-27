@@ -7,7 +7,7 @@ class Lessons extends Component {
   showLink () {
     return this.props.links.map ((link) => {
       return (
-        <LessonsItem image={link.image} title={link.title} path={link.path} />
+        <LessonsItem id="lessons" image={link.image} title={link.title} path={link.path} />
       )
     })
   }

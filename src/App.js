@@ -13,7 +13,7 @@ import HtmlLess from './components/Lessons/HtmlLess/HtmlLess';
 import CssLess from './components/Lessons/CssLess/CssLess';
 import JavaLess from './components/Lessons/JavaLess/JavaLess';
 import ReactLess from './components/Lessons/ReactLess/ReactLess';
-import LinksItem from './components/Main/LinksItem/LinksItem';
+import { LinksItem } from './components/Main/LinksItem/LinksItem';
 import Main from './components/Main/Main';
 
 const store = createStore(allReducers);
@@ -91,10 +91,10 @@ class App extends React.Component {
                 </linearGradient>
               </svg>
               <Route exact path='/' component={Main} />
-              <Route path='/htmlless' component={HtmlLess} onClick={() => this.onSetSidebarOpen(false)} />
-              <Route path='/cssless' component={CssLess} onClick={() => this.onSetSidebarOpen(false)} />
-              <Route path='/javaless' component={JavaLess} onClick={() => this.onSetSidebarOpen(false)} />
-              <Route path='/reactless' component={ReactLess} onClick={() => this.onSetSidebarOpen(false)}/>
+              <Route path='/htmlless' component={HtmlLess} />
+              <Route path='/cssless' component={CssLess} />
+              <Route path='/javaless' component={JavaLess} />
+              <Route path='/reactless' component={ReactLess} />
             </div>
           </SideBar>
         </Router>

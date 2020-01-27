@@ -30,10 +30,11 @@
 
 .menu {
   height: 40px;
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
   cursor: pointer;
+  z-index: 9;
 }
 
 .menu path {

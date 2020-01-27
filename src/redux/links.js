@@ -28,6 +28,30 @@ export default () => {
       title: 'React',
       path: 'reactless',
       image: reactBg
+    },
+    {
+      id: 5,
+      title: 'JavaScript',
+      path: 'javaless',
+      image: javaBg
+    },
+    {
+      id: 6,
+      title: 'React',
+      path: 'reactless',
+      image: reactBg
+    },
+    {
+      id: 7,
+      title: 'HTML',
+      path: 'htmlless',
+      image: htmlBg
+    },
+    {
+      id: 8,
+      title: 'CSS',
+      path: 'cssless',
+      image: cssBg
     }
-  ]
+  ]    
 }

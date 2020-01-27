@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
-import LinksReducers from './links';
+import links from './links';
+import svgs from './svgs';
+
 
 const allReducers = combineReducers ({
-    links: LinksReducers
+    links, svgs,
 });
 
 export default allReducers;
