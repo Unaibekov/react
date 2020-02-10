@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../LessonsItem/LessonItems.module.css';
 
-const LessonsItem = (props) => {
+export const LessonsItem = (props) => {
 
   return (
     <Link className={styles.item} to={props.path}>
@@ -16,5 +16,3 @@ const LessonsItem = (props) => {
     </Link>
   )
 }
-
-export default LessonsItem;

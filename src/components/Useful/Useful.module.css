@@ -1,31 +1,57 @@
-.header {
+.heading {
   padding: 20px;
   text-align: left;
   font-size: 40px;
+  color: white;
+}
+
+.title {
+  padding-bottom: 20px;
+  text-align: left;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+
+.logo {
+  height: 250px;
+  margin-right: 60px;
+  margin-bottom: 30px;
 }
 
 .slide {
-  width: 100%;
-  background: lightblue;
-  height: 500px;
+  padding-bottom: 30px;
 }
 
-.prev {
-  height: 50px;
+.slideContent {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev,
+.next {
+  height: 40px;
   cursor: pointer;
   transform: translateX(0px);
   transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.prev path,
+.next path {
+  fill: white;
 }
 
 .prev:hover {
   transform: translateX(-10px);
-  transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
-}
-
-.next {
-  height: 50px;
-  cursor: pointer;
-  transform: translateX(0px);
   transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
@@ -94,5 +120,41 @@ stop {
   }
   90% {
     stop-color: purple;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .slideContent {
+    width: unset;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+  }
+
+  .logo {
+    height: 100px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .slideContent {
+    width: unset;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+  }
+
+  .logo {
+    height: 100px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 2559.98px) {
+  .item img {
+    width: 100%;
   }
 }
