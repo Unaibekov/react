@@ -31,10 +31,13 @@
 .menu {
   height: 40px;
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 0.5%;
+  left: 0.5%;
   cursor: pointer;
   z-index: 1;
+  background: azure;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .menu path {

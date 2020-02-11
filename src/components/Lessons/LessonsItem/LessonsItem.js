@@ -7,7 +7,7 @@ export const LessonsItem = (props) => {
   return (
     <Link className={styles.item} to={props.path}>
       <i className={styles.line}></i>
-      <img className="img-responsive" src={props.image} alt='LessonsImage' />
+      <img style={{height:'auto',width:'100%'}} className="img-responsive" src={props.image} alt='LessonsImage' />
       <div className={styles.overlay}></div>
       <div className={styles.title}>{props.title}</div>
       <svg className={styles.icon} viewbox="0 0 28 25">

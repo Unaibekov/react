@@ -10,7 +10,7 @@ export const Main = () => {
         <div>
             <PageProgress color={'#adc8ff'} height={5} />
             <Hero />
-            <Lessons id="Lessons"/>
+            <Lessons id="lessons"/>
             <Useful />
         </div>
     );
