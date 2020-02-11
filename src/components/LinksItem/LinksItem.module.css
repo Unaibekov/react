@@ -1,12 +1,19 @@
 .item {
     color: white;
-    font-size: 40px;
+    font-size: 27px;
     font-family: cuprum;
     text-align: left;
-    margin-left: 15px;
+    margin-left: 10px;
     cursor: pointer;
+    margin-bottom: 5px;
+    width: 90%;
+    padding: 5px;
+    transition: all 0.3s cubic-bezier(0.22, 0.46, 0.57, 0.89);
 }
 
 .item:hover {
     color: lightblue;
+    border-bottom: 4px solid #db22ff;
+    transition: all 0.3s ease-in-out;
+    background: #e91e6366;
 }

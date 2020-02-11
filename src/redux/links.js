@@ -1,57 +1,113 @@
-import htmlBg from '../assets/images/htmlBg.jpg';
-import cssBg from '../assets/images/cssBg.jpg';
-import reactBg from '../assets/images/reactBg.png';
-import javaBg from '../assets/images/javaBg.png';
+// import htmlBg from '../assets/images/htmlBg.jpg';
+// import cssBg from '../assets/images/cssBg.jpg';
+// import reactBg from '../assets/images/reactBg.png';
+// import javaBg from '../assets/images/javaBg.png';
+
+import outdoorAdv from '../assets/images/01.jpg';
+import inputGroups from '../assets/images/02.jpg';
+import largePrint from '../assets/images/03.jpg';
+import souvenir from '../assets/images/04.jpg';
+import polygraphy from '../assets/images/05.jpg';
+import wallpaper from '../assets/images/06.jpg';
+import cmit from '../assets/images/07.jpg';
+import prototyping from '../assets/images/08.jpg';
 
 export default () => {
-  return [
-    {
-      id: 1,
-      title: 'HTML',
-      path: 'htmlless',
-      image: htmlBg
-    },
-    {
-      id: 2,
-      title: 'CSS',
-      path: 'cssless',
-      image: cssBg
-    },
-    {
-      id: 3,
-      title: 'JavaScript',
-      path: 'javaless',
-      image: javaBg
-    },
-    {
-      id: 4,
-      title: 'React',
-      path: 'reactless',
-      image: reactBg
-    },
-    {
-      id: 5,
-      title: 'JavaScript',
-      path: 'javaless',
-      image: javaBg
-    },
-    {
-      id: 6,
-      title: 'React',
-      path: 'reactless',
-      image: reactBg
-    },
-    {
-      id: 7,
-      title: 'HTML',
-      path: 'htmlless',
-      image: htmlBg
-    },
-    {
-      id: 8,
-      title: 'CSS',
-      path: 'cssless',
-      image: cssBg
-    }
-  ]    
+    return [{
+            id: 1,
+            title: 'Наружная реклама',
+            path: 'htmlless',
+            image: outdoorAdv
+        },
+        {
+            id: 2,
+            title: 'Входные группы',
+            path: 'cssless',
+            image: inputGroups
+        },
+        {
+            id: 3,
+            title: 'Широкоформатная печать',
+            path: 'javaless',
+            image: largePrint
+        },
+        {
+            id: 4,
+            title: 'Сувенирная продукция',
+            path: 'reactless',
+            image: souvenir
+        },
+        {
+            id: 5,
+            title: 'Полиграфия',
+            path: 'javaless',
+            image: polygraphy
+        },
+        {
+            id: 6,
+            title: 'Фото-обои',
+            path: 'reactless',
+            image: wallpaper
+        },
+        {
+            id: 7,
+            title: 'ЦМИТ-Имидж',
+            path: 'htmlless',
+            image: cmit
+        },
+        {
+            id: 8,
+            title: 'Прототипирование',
+            path: 'cssless',
+            image: prototyping
+        }
+        // {
+        //   id: 1,
+        //   title: 'HTML',
+        //   path: 'htmlless',
+        //   image: htmlBg
+        // },
+        // {
+        //   id: 2,
+        //   title: 'CSS',
+        //   path: 'cssless',
+        //   image: cssBg
+        // },
+        // {
+        //   id: 3,
+        //   title: 'JavaScript',
+        //   path: 'javaless',
+        //   image: javaBg
+        // },
+        // {
+        //   id: 4,
+        //   title: 'React',
+        //   path: 'reactless',
+        //   image: reactBg
+        // },
+        // {
+        //   id: 5,
+        //   title: 'JavaScript',
+        //   path: 'javaless',
+        //   image: javaBg
+        // },
+        // {
+        //   id: 6,
+        //   title: 'React',
+        //   path: 'reactless',
+        //   image: reactBg
+        // },
+        // {
+        //   id: 7,
+        //   title: 'HTML',
+        //   path: 'htmlless',
+        //   image: htmlBg
+        // },
+        // {
+        //   id: 8,
+        //   title: 'CSS',
+        //   path: 'cssless',
+        //   image: cssBg
+        // }
+    ]
 }
