@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c7357a6dd3ded5361dd2983d85237f8",
+    "revision": "8337a200b96402121ff93d55f61b0434",
     "url": "/react/index.html"
   },
   {
-    "revision": "b761051ce7fedf1f464f",
+    "revision": "771f0df1f307d5061492",
     "url": "/react/static/css/2.44ea01ec.chunk.css"
   },
   {
-    "revision": "a231a2c8921853ce1a6f",
-    "url": "/react/static/css/main.0a7fc3a9.chunk.css"
+    "revision": "85b246c1abfaa1cf0553",
+    "url": "/react/static/css/main.7e7b185d.chunk.css"
   },
   {
-    "revision": "b761051ce7fedf1f464f",
-    "url": "/react/static/js/2.e62db227.chunk.js"
+    "revision": "771f0df1f307d5061492",
+    "url": "/react/static/js/2.77ff4f6a.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/react/static/js/2.e62db227.chunk.js.LICENSE"
+    "url": "/react/static/js/2.77ff4f6a.chunk.js.LICENSE"
   },
   {
-    "revision": "a231a2c8921853ce1a6f",
-    "url": "/react/static/js/main.ab71288d.chunk.js"
+    "revision": "85b246c1abfaa1cf0553",
+    "url": "/react/static/js/main.4299c009.chunk.js"
   },
   {
     "revision": "5167de68795de59d241c",
@@ -60,16 +60,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react/static/media/08.91d97978.jpg"
   },
   {
+    "revision": "7a510a2c29eb3f0e0bcf02a4dcaf9141",
+    "url": "/react/static/media/MimakiJV33.7a510a2c.png"
+  },
+  {
+    "revision": "6635c88ec5fbe5357a7b900c56a89093",
+    "url": "/react/static/media/MultiCam1000.6635c88e.png"
+  },
+  {
+    "revision": "97a448a30d506eb78bb10add04f73a37",
+    "url": "/react/static/media/TrotecSpeedy100R.97a448a3.png"
+  },
+  {
     "revision": "ee3dd3f56efcf26af535a51beaaffd51",
     "url": "/react/static/media/close.ee3dd3f5.svg"
   },
   {
     "revision": "2c03cc1889d364f3771163f5e0ceb3e9",
     "url": "/react/static/media/cssBg.2c03cc18.jpg"
-  },
-  {
-    "revision": "d493bd5295c06cd8c3e98a8be9a93efc",
-    "url": "/react/static/media/html.d493bd52.png"
   },
   {
     "revision": "35965b29daf65cdd8026e1979cfeea76",
@@ -80,24 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react/static/media/javaBg.b7608a65.png"
   },
   {
-    "revision": "03d471c6a43c17a3496228b5b43512e6",
-    "url": "/react/static/media/js.03d471c6.png"
-  },
-  {
     "revision": "ed69dc44c31fcf19d5101730f657c01d",
     "url": "/react/static/media/leninBg.ed69dc44.jpg"
   },
   {
     "revision": "518d4ccc23ac64c461a5c7b4048c0a93",
     "url": "/react/static/media/reactBg.518d4ccc.png"
-  },
-  {
-    "revision": "5b4efb1420f64da9a8fba88799a40a25",
-    "url": "/react/static/media/reactjs.5b4efb14.png"
-  },
-  {
-    "revision": "350f7e195aa51ddf90ca9676a2e47feb",
-    "url": "/react/static/media/redux.350f7e19.png"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
