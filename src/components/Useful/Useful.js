@@ -68,6 +68,7 @@ export const Useful = () => {
                 <div>
                   <div className={styles.title}>{i.title}</div>
                   <div className={styles.subtitle}>{i.subtitle}</div>
+                  <div className={styles.subtitle_second}>{i.subtitle_second}</div>
                 </div>
               </div>
             </div>

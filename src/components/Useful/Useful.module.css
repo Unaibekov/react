@@ -19,6 +19,13 @@
   color: white;
 }
 
+.subtitle_second {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  margin-top: 15px;
+}
+
 .logo {
   height: 250px;
   margin-right: 60px;
@@ -133,9 +140,30 @@ stop {
   }
 
   .logo {
-    height: 100px;
-    margin-right: 60px;
-    margin-bottom: 30px;
+    height: 135px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .subtitle {
+    text-align: left;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .subtitle_second {
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
   }
 }
 
