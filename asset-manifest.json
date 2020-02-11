@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.0505da17.chunk.css",
-    "main.js": "/react/static/js/main.1205356e.chunk.js",
-    "main.js.map": "/react/static/js/main.1205356e.chunk.js.map",
+    "main.css": "/react/static/css/main.23eae13c.chunk.css",
+    "main.js": "/react/static/js/main.5e7e07fd.chunk.js",
+    "main.js.map": "/react/static/js/main.5e7e07fd.chunk.js.map",
     "runtime-main.js": "/react/static/js/runtime-main.cbcb79aa.js",
     "runtime-main.js.map": "/react/static/js/runtime-main.cbcb79aa.js.map",
     "static/css/2.44ea01ec.chunk.css": "/react/static/css/2.44ea01ec.chunk.css",
-    "static/js/2.f33ddc02.chunk.js": "/react/static/js/2.f33ddc02.chunk.js",
-    "static/js/2.f33ddc02.chunk.js.map": "/react/static/js/2.f33ddc02.chunk.js.map",
+    "static/js/2.a78ef779.chunk.js": "/react/static/js/2.a78ef779.chunk.js",
+    "static/js/2.a78ef779.chunk.js.map": "/react/static/js/2.a78ef779.chunk.js.map",
     "index.html": "/react/index.html",
-    "precache-manifest.41022ab65c83bfd61c75dfa05f87000a.js": "/react/precache-manifest.41022ab65c83bfd61c75dfa05f87000a.js",
+    "precache-manifest.62d279ffb13ce1bb9b62aba639485c3e.js": "/react/precache-manifest.62d279ffb13ce1bb9b62aba639485c3e.js",
     "service-worker.js": "/react/service-worker.js",
     "static/css/2.44ea01ec.chunk.css.map": "/react/static/css/2.44ea01ec.chunk.css.map",
-    "static/css/main.0505da17.chunk.css.map": "/react/static/css/main.0505da17.chunk.css.map",
-    "static/js/2.f33ddc02.chunk.js.LICENSE": "/react/static/js/2.f33ddc02.chunk.js.LICENSE",
+    "static/css/main.23eae13c.chunk.css.map": "/react/static/css/main.23eae13c.chunk.css.map",
+    "static/js/2.a78ef779.chunk.js.LICENSE": "/react/static/js/2.a78ef779.chunk.js.LICENSE",
+    "static/media/close.svg": "/react/static/media/close.ee3dd3f5.svg",
     "static/media/CssLess.module.css": "/react/static/media/cssBg.2c03cc18.jpg",
     "static/media/html.png": "/react/static/media/html.d493bd52.png",
     "static/media/HtmlLess.module.css": "/react/static/media/htmlBg.35965b29.jpg",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.cbcb79aa.js",
     "static/css/2.44ea01ec.chunk.css",
-    "static/js/2.f33ddc02.chunk.js",
-    "static/css/main.0505da17.chunk.css",
-    "static/js/main.1205356e.chunk.js"
+    "static/js/2.a78ef779.chunk.js",
+    "static/css/main.23eae13c.chunk.css",
+    "static/js/main.5e7e07fd.chunk.js"
   ]
 }
