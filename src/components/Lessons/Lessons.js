@@ -7,9 +7,9 @@ export const Lessons = ({id}) => {
   const links = useSelector(state => state.links);
   
   return (
-    <div className={`${styles.dFlex} ${styles.flexWrap}`}>
-      {links.map(link => {
-        return <LessonsItem id={id} image={link.image} title={link.title} path={link.path} />;
+    <div className={`${styles.dFlex} ${styles.flexWrap}`} id={id}>
+      {links.map(i => {
+        return <LessonsItem image={i.image} title={i.title} path={i.path} />;
       })}
     </div>
   );

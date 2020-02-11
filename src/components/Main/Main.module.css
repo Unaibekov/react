@@ -14,11 +14,3 @@
 .logo {
   width: 50px;
 }
-
-.down {
-  position: absolute;
-  bottom: 35vh;
-  z-index: 1;
-  left: 50%;
-  cursor: pointer;
-}

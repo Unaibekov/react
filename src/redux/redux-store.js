@@ -4,8 +4,6 @@ import svgs from './svgs';
 import usefulSlider from './usefulSlider';
 
 
-const allReducers = combineReducers ({
+export const allReducers = combineReducers ({
     links, svgs, usefulSlider
 });
-
-export default allReducers;

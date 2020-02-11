@@ -2,17 +2,17 @@ import React from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import { Provider } from 'react-redux'
 import { createStore } from 'redux';
-import allReducers from './redux/redux-store';
+import { allReducers } from './redux/redux-store';
 
 import styles from './App.module.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import SideBar from 'react-sidebar';
 
-import HtmlLess from './components/Lessons/HtmlLess/HtmlLess';
-import CssLess from './components/Lessons/CssLess/CssLess';
-import JavaLess from './components/Lessons/JavaLess/JavaLess';
-import ReactLess from './components/Lessons/ReactLess/ReactLess';
+import { HtmlLess } from './components/Lessons/HtmlLess/HtmlLess';
+import { CssLess } from './components/Lessons/CssLess/CssLess';
+import { JavaLess } from './components/Lessons/JavaLess/JavaLess';
+import { ReactLess } from './components/Lessons/ReactLess/ReactLess';
 import { LinksItem } from './components/LinksItem/LinksItem';
 import { Main } from './components/Main/Main';
 
