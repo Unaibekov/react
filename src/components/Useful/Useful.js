@@ -36,7 +36,7 @@ export const Useful = () => {
   return (
     <div>
       <div className={`${styles.heading} d-flex justify-content-betveen align-items-center`}>
-        <div>Заголовок</div>
+        <div>Оборудование</div>
         {/* <div className="d-flex">
           <svg viewBox="0 0 492 492"
 
