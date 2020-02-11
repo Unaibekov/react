@@ -1,32 +1,57 @@
-import outdoorAdv from '../assets/images/01.jpg';
-import entranceGroup from '../assets/images/02.jpg';
-import largePrinting from '../assets/images/03.jpg';
-import souvenir from '../assets/images/04.jpg';
+import htmlBg from '../assets/images/htmlBg.jpg';
+import cssBg from '../assets/images/cssBg.jpg';
+import reactBg from '../assets/images/reactBg.png';
+import javaBg from '../assets/images/javaBg.png';
 
 export default () => {
-    return [{
-            id: 1,
-            title: 'Наружная реклама',
-            path: 'htmlless',
-            image: outdoorAdv
-        },
-        {
-            id: 2,
-            title: 'Входные группы',
-            path: 'cssless',
-            image: entranceGroup
-        },
-        {
-            id: 3,
-            title: 'Широкоформатная печать',
-            path: 'javaless',
-            image: largePrinting
-        },
-        {
-            id: 4,
-            title: 'Сувенирная продукция',
-            path: 'reactless',
-            image: souvenir
-        }
-    ]
+  return [
+    {
+      id: 1,
+      title: 'HTML',
+      path: 'htmlless',
+      image: htmlBg
+    },
+    {
+      id: 2,
+      title: 'CSS',
+      path: 'cssless',
+      image: cssBg
+    },
+    {
+      id: 3,
+      title: 'JavaScript',
+      path: 'javaless',
+      image: javaBg
+    },
+    {
+      id: 4,
+      title: 'React',
+      path: 'reactless',
+      image: reactBg
+    },
+    {
+      id: 5,
+      title: 'JavaScript',
+      path: 'javaless',
+      image: javaBg
+    },
+    {
+      id: 6,
+      title: 'React',
+      path: 'reactless',
+      image: reactBg
+    },
+    {
+      id: 7,
+      title: 'HTML',
+      path: 'htmlless',
+      image: htmlBg
+    },
+    {
+      id: 8,
+      title: 'CSS',
+      path: 'cssless',
+      image: cssBg
+    }
+  ]    
 }
