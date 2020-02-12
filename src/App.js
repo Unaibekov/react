@@ -8,7 +8,7 @@ import styles from './App.module.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import SideBar from 'react-sidebar';
-import { Lines } from 'react-preloaders'
+import { Dots } from 'react-preloaders'
 
 import { HtmlLess } from './components/Lessons/HtmlLess/HtmlLess';
 import { CssLess } from './components/Lessons/CssLess/CssLess';
@@ -100,9 +100,10 @@ class App extends React.Component {
             </div>
           </SideBar>
         </Provider>
-        <Lines 
+        <Dots 
           background='radial-gradient(circle, rgba(93,108,255,1) 0%, rgba(84,75,208,1) 100%)'
           animation='slide-down'
+          color='white'
           />
       </Router>
     );
