@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #38495c;
+  background: #544bd0;
 }
 
 code {
@@ -57,8 +57,6 @@ li {
 .ab {
   background: red;
 }
-
-
 
 .slick-prev, .slick-next {
   display: none!important;

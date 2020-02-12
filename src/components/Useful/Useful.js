@@ -24,9 +24,11 @@ export const Useful = () => {
     arrows: false,
     focusOnSelect: true,
     infinite: true,
-    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 5000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    speed: 1000,
     // slickNext: false,
     // slickPrev: false,
     nextArrow: <Cls />,
@@ -36,7 +38,7 @@ export const Useful = () => {
   return (
     <div>
       <div className={`${styles.heading} d-flex justify-content-betveen align-items-center`}>
-        <div>Оборудование</div>
+        <div>Технологии</div>
         {/* <div className="d-flex">
           <svg viewBox="0 0 492 492"
 
@@ -67,8 +69,8 @@ export const Useful = () => {
                 <img src={i.image} alt='htmlLogo' className={styles.logo} />
                 <div>
                   <div className={styles.title}>{i.title}</div>
-                  <div className={styles.subtitle}>{i.subtitle}</div>
-                  <div className={styles.subtitle_second}>{i.subtitle_second}</div>
+                  <div className={styles.subtitle} dangerouslySetInnerHTML={{ __html: i.subtitle }}></div>
+                  <div className={styles.subtitle_second} dangerouslySetInnerHTML={{ __html: i.subtitle_second }}></div>
                 </div>
               </div>
             </div>

@@ -8,6 +8,7 @@ import styles from './App.module.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import SideBar from 'react-sidebar';
+import { Lines } from 'react-preloaders'
 
 import { HtmlLess } from './components/Lessons/HtmlLess/HtmlLess';
 import { CssLess } from './components/Lessons/CssLess/CssLess';
@@ -54,15 +55,15 @@ class App extends React.Component {
     }
     return (
 
-        <Router>
-          <Provider store={store}>
+      <Router>
+        <Provider store={store}>
 
           <SideBar
             sidebarClassName={styles.sidebar}
             sidebar={[
               <div className="d-flex justify-content-end align-items-center m3">
                 <svg
-                width="32" height="32" viewBox="0 0 348 348"
+                  width="32" height="32" viewBox="0 0 348 348"
                   className={styles.close}
                   onClick={() => this.onSetSidebarOpen(false)}
                 >
@@ -98,9 +99,12 @@ class App extends React.Component {
               <Route path='/reactless' component={ReactLess} />
             </div>
           </SideBar>
-      </Provider>
-
-  </Router>
+        </Provider>
+        <Lines 
+          background='radial-gradient(circle, rgba(93,108,255,1) 0%, rgba(84,75,208,1) 100%)'
+          animation='slide-down'
+          />
+      </Router>
     );
   };
 }

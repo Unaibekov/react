@@ -26,6 +26,12 @@
   margin-top: 15px;
 }
 
+.subtitle span,
+.subtitle_second span {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .logo {
   height: 250px;
   margin-right: 60px;
@@ -38,7 +44,7 @@
 }
 
 .slideContent {
-  width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -187,3 +193,4 @@ stop {
     width: 100%;
   }
 }
+
