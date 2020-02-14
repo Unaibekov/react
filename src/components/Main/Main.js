@@ -3,6 +3,8 @@ import { Hero } from "../Hero/Hero";
 import { Lessons } from "../Lessons/Lessons";
 import { Useful } from "../Useful/Useful";
 import PageProgress from 'react-page-progress';
+import { Order } from "../Order/Order";
+import { Partners } from "../Partners/Partners";
 
 export const Main = () => {
     
@@ -12,6 +14,8 @@ export const Main = () => {
             <Hero />
             <Lessons id="lessons"/>
             <Useful />
+            <Order />
+            <Partners />
         </div>
     );
 }

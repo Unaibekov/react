@@ -15,7 +15,7 @@
   color: lightblue;
 }
 
-.sidebar {  
+.sidebar {
   background: #002eaf;
   width: 320px;
 }
@@ -24,20 +24,23 @@
   cursor: pointer;
 }
 
-.close path{
+.close path {
   fill: white;
 }
 
 .menu {
   height: 40px;
   position: fixed;
-  top: 0.5%;
-  left: 0.5%;
+  top: 0px;
+  left: 0;
   cursor: pointer;
   z-index: 1;
   background: azure;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 10px;
+  box-shadow: -11px -7px 34px 6px #292287;
 }
 
 .menu path {
