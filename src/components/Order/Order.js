@@ -10,9 +10,9 @@ export const Order = () => {
       <div className={styles.orderVisible}>
         <div className={styles.orderRotated}>
           <div className={styles.orderContainer}>
-            <input className={styles.input} type="text" placeholder="Введите Email"/> 
+            <input className={styles.input} type="text" placeholder="Введите Email" />
             <div className={styles.title}>Записаться</div>
-          </div>          
+          </div>
         </div>
         <div className={styles.orderContainer}>
           <div className={styles.title}>Записаться на обучение</div>
@@ -20,6 +20,10 @@ export const Order = () => {
             width="100" height="100" viewBox="0 0 492 492"
             className={styles.arrowRight}>
             <path d={svgs.arrowRight} />
+            <linearGradient id="arrow-gradient" x2="1" y2="1">
+              <stop offset="0%" stop-color="#447799" />
+              <stop offset="100%" stop-color="#112266" />
+            </linearGradient>
           </svg>
         </div>
       </div>

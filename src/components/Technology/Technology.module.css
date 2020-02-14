@@ -1,29 +1,68 @@
-.heading {
-  padding: 20px;
-  text-align: left;
-  font-size: 40px;
+.technology {
+  padding: 3% 0px;
+  background: #3c328a;
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 960px;
+}
+
+.headerTitle {
+  text-align: center;
+  font-size: 30px;
   color: white;
+  font-weight: 900;
+}
+
+.divider {
+  background: linear-gradient( 45deg, rgba(0, 129, 255, 1) 0%, rgb(0, 247, 255) 100%);
+  width: 200px;
+  height: 3px;
+  margin: 10px;
+}
+
+.headerSubtitle {
+  text-align: center;
+  color: #00f1ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
 }
 
 .title {
   padding-bottom: 20px;
   text-align: left;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
-  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.title span {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .subtitle {
   text-align: left;
-  font-size: 20px;
   color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .subtitle_second {
   text-align: left;
-  font-size: 20px;
   color: white;
   margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .subtitle span,
@@ -39,7 +78,6 @@
 }
 
 .slide {
-  padding-bottom: 30px;
   cursor: pointer;
 }
 
@@ -80,64 +118,13 @@
   transition: transform 0.6s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
-stop {
-  -webkit-animation: colors 12s infinite;
-  animation: colors 12s infinite;
-}
 
-.stop-2 {
-  -webkit-animation-delay: -3s;
-  animation-delay: -3s;
-}
-
-.stop-3 {
-  -webkit-animation-delay: -6s;
-  animation-delay: -6s;
-}
-
-@-webkit-keyframes colors {
-  15% {
-    stop-color: crimson;
-  }
-  30% {
-    stop-color: gold;
-  }
-  45% {
-    stop-color: teal;
-  }
-  60% {
-    stop-color: yellowgreen;
-  }
-  75% {
-    stop-color: orangered;
-  }
-  90% {
-    stop-color: purple;
-  }
-}
-
-@keyframes colors {
-  15% {
-    stop-color: crimson;
-  }
-  30% {
-    stop-color: gold;
-  }
-  45% {
-    stop-color: teal;
-  }
-  60% {
-    stop-color: yellowgreen;
-  }
-  75% {
-    stop-color: orangered;
-  }
-  90% {
-    stop-color: purple;
-  }
-}
 
 @media (max-width: 575.98px) {
+  .header {
+    width: 100%;
+  }
+
   .slideContent {
     width: unset;
     margin: 0 auto;

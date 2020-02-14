@@ -1,13 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
-import styles from '../Useful/Useful.module.css'
+import styles from '../Technology/Technology.module.css'
 import htmlLogo from '../../assets/images/html.png'
 import cssLogo from '../../assets/images/CSS3.png'
 import jsLogo from '../../assets/images/js.png'
 import rjsLogo from '../../assets/images/reactjs.png'
 import reduxLogo from '../../assets/images/redux.png'
 
-export const Useful = () => {
+export const Technology = () => {
   const next = () => {
     this.slider.slickNext();
   }
@@ -102,14 +102,3 @@ export const Useful = () => {
     </div>
   );
 }
-// export default class Useful extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.next = this.next.bind(this);
-//     this.previous = this.previous.bind(this);
-//   }
-  
-//   render() {
-    
-//   }
-// }
