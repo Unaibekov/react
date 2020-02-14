@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51018440b2bc5bb605ba8929f224e46a",
+    "revision": "ca937df354fcc5290eb3cdc5a2050bc9",
     "url": "/react/index.html"
   },
   {
-    "revision": "d21014b86471a69f2516",
+    "revision": "bff510177364ea8cecf2",
     "url": "/react/static/css/2.44ea01ec.chunk.css"
   },
   {
-    "revision": "2383ac65d1ec59d3ed6a",
-    "url": "/react/static/css/main.146b55f4.chunk.css"
+    "revision": "cfd790f58fd7ddbde081",
+    "url": "/react/static/css/main.df717166.chunk.css"
   },
   {
-    "revision": "d21014b86471a69f2516",
-    "url": "/react/static/js/2.f44ef36e.chunk.js"
+    "revision": "bff510177364ea8cecf2",
+    "url": "/react/static/js/2.7cb4b46b.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/react/static/js/2.f44ef36e.chunk.js.LICENSE"
+    "url": "/react/static/js/2.7cb4b46b.chunk.js.LICENSE"
   },
   {
-    "revision": "2383ac65d1ec59d3ed6a",
-    "url": "/react/static/js/main.d1ae7134.chunk.js"
+    "revision": "cfd790f58fd7ddbde081",
+    "url": "/react/static/js/main.2f9ce935.chunk.js"
   },
   {
     "revision": "5167de68795de59d241c",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react/static/media/TrotecSpeedy100R.97a448a3.png"
   },
   {
+    "revision": "040cc5950edbf556f8d71567067db966",
+    "url": "/react/static/media/alfa.040cc595.jpg"
+  },
+  {
     "revision": "ee3dd3f56efcf26af535a51beaaffd51",
     "url": "/react/static/media/close.ee3dd3f5.svg"
   },
@@ -96,6 +100,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react/static/media/reactBg.518d4ccc.png"
   },
   {
+    "revision": "3a3bc870132f3307e0742525e349ad16",
+    "url": "/react/static/media/severstal.3a3bc870.jpg"
+  },
+  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/react/static/media/slick.b7c9e1e4.woff"
   },
@@ -110,5 +118,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/react/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "c101506b41c2fbf4671eaaea32c76965",
+    "url": "/react/static/media/taif.c101506b.jpg"
   }
 ]);

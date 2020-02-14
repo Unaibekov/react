@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.146b55f4.chunk.css",
-    "main.js": "/react/static/js/main.d1ae7134.chunk.js",
-    "main.js.map": "/react/static/js/main.d1ae7134.chunk.js.map",
+    "main.css": "/react/static/css/main.df717166.chunk.css",
+    "main.js": "/react/static/js/main.2f9ce935.chunk.js",
+    "main.js.map": "/react/static/js/main.2f9ce935.chunk.js.map",
     "runtime-main.js": "/react/static/js/runtime-main.cbcb79aa.js",
     "runtime-main.js.map": "/react/static/js/runtime-main.cbcb79aa.js.map",
     "static/css/2.44ea01ec.chunk.css": "/react/static/css/2.44ea01ec.chunk.css",
-    "static/js/2.f44ef36e.chunk.js": "/react/static/js/2.f44ef36e.chunk.js",
-    "static/js/2.f44ef36e.chunk.js.map": "/react/static/js/2.f44ef36e.chunk.js.map",
+    "static/js/2.7cb4b46b.chunk.js": "/react/static/js/2.7cb4b46b.chunk.js",
+    "static/js/2.7cb4b46b.chunk.js.map": "/react/static/js/2.7cb4b46b.chunk.js.map",
     "index.html": "/react/index.html",
-    "precache-manifest.80a936fa2e037989d6e0f8344a84f242.js": "/react/precache-manifest.80a936fa2e037989d6e0f8344a84f242.js",
+    "precache-manifest.2e9cc8c4ed4eb9d8d2473924657d33c0.js": "/react/precache-manifest.2e9cc8c4ed4eb9d8d2473924657d33c0.js",
     "service-worker.js": "/react/service-worker.js",
     "static/css/2.44ea01ec.chunk.css.map": "/react/static/css/2.44ea01ec.chunk.css.map",
-    "static/css/main.146b55f4.chunk.css.map": "/react/static/css/main.146b55f4.chunk.css.map",
-    "static/js/2.f44ef36e.chunk.js.LICENSE": "/react/static/js/2.f44ef36e.chunk.js.LICENSE",
+    "static/css/main.df717166.chunk.css.map": "/react/static/css/main.df717166.chunk.css.map",
+    "static/js/2.7cb4b46b.chunk.js.LICENSE": "/react/static/js/2.7cb4b46b.chunk.js.LICENSE",
     "static/media/01.jpg": "/react/static/media/01.749dc193.jpg",
     "static/media/02.jpg": "/react/static/media/02.5eea62ea.jpg",
     "static/media/03.jpg": "/react/static/media/03.c09b3ce8.jpg",
@@ -25,19 +25,22 @@
     "static/media/MimakiJV33.png": "/react/static/media/MimakiJV33.7a510a2c.png",
     "static/media/MultiCam1000.png": "/react/static/media/MultiCam1000.6635c88e.png",
     "static/media/TrotecSpeedy100R.png": "/react/static/media/TrotecSpeedy100R.97a448a3.png",
+    "static/media/alfa.jpg": "/react/static/media/alfa.040cc595.jpg",
     "static/media/close.svg": "/react/static/media/close.ee3dd3f5.svg",
     "static/media/CssLess.module.css": "/react/static/media/cssBg.2c03cc18.jpg",
     "static/media/HtmlLess.module.css": "/react/static/media/htmlBg.35965b29.jpg",
     "static/media/JavaLess.module.css": "/react/static/media/javaBg.b7608a65.png",
     "static/media/Hero.module.css": "/react/static/media/leninBg.ed69dc44.jpg",
     "static/media/ReactLess.module.css": "/react/static/media/reactBg.518d4ccc.png",
-    "static/media/slick-theme.css": "/react/static/media/slick.f97e3bbf.svg"
+    "static/media/severstal.jpg": "/react/static/media/severstal.3a3bc870.jpg",
+    "static/media/slick-theme.css": "/react/static/media/slick.f97e3bbf.svg",
+    "static/media/taif.jpg": "/react/static/media/taif.c101506b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cbcb79aa.js",
     "static/css/2.44ea01ec.chunk.css",
-    "static/js/2.f44ef36e.chunk.js",
-    "static/css/main.146b55f4.chunk.css",
-    "static/js/main.d1ae7134.chunk.js"
+    "static/js/2.7cb4b46b.chunk.js",
+    "static/css/main.df717166.chunk.css",
+    "static/js/main.2f9ce935.chunk.js"
   ]
 }
