@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.df717166.chunk.css",
-    "main.js": "/react/static/js/main.2f9ce935.chunk.js",
-    "main.js.map": "/react/static/js/main.2f9ce935.chunk.js.map",
+    "main.css": "/react/static/css/main.6e2d18a0.chunk.css",
+    "main.js": "/react/static/js/main.7990f97e.chunk.js",
+    "main.js.map": "/react/static/js/main.7990f97e.chunk.js.map",
     "runtime-main.js": "/react/static/js/runtime-main.cbcb79aa.js",
     "runtime-main.js.map": "/react/static/js/runtime-main.cbcb79aa.js.map",
     "static/css/2.44ea01ec.chunk.css": "/react/static/css/2.44ea01ec.chunk.css",
-    "static/js/2.7cb4b46b.chunk.js": "/react/static/js/2.7cb4b46b.chunk.js",
-    "static/js/2.7cb4b46b.chunk.js.map": "/react/static/js/2.7cb4b46b.chunk.js.map",
+    "static/js/2.419ce53f.chunk.js": "/react/static/js/2.419ce53f.chunk.js",
+    "static/js/2.419ce53f.chunk.js.map": "/react/static/js/2.419ce53f.chunk.js.map",
     "index.html": "/react/index.html",
-    "precache-manifest.2e9cc8c4ed4eb9d8d2473924657d33c0.js": "/react/precache-manifest.2e9cc8c4ed4eb9d8d2473924657d33c0.js",
+    "precache-manifest.5f6f6d2411a9827314b9162d7e41f860.js": "/react/precache-manifest.5f6f6d2411a9827314b9162d7e41f860.js",
     "service-worker.js": "/react/service-worker.js",
     "static/css/2.44ea01ec.chunk.css.map": "/react/static/css/2.44ea01ec.chunk.css.map",
-    "static/css/main.df717166.chunk.css.map": "/react/static/css/main.df717166.chunk.css.map",
-    "static/js/2.7cb4b46b.chunk.js.LICENSE": "/react/static/js/2.7cb4b46b.chunk.js.LICENSE",
+    "static/css/main.6e2d18a0.chunk.css.map": "/react/static/css/main.6e2d18a0.chunk.css.map",
+    "static/js/2.419ce53f.chunk.js.LICENSE": "/react/static/js/2.419ce53f.chunk.js.LICENSE",
     "static/media/01.jpg": "/react/static/media/01.749dc193.jpg",
     "static/media/02.jpg": "/react/static/media/02.5eea62ea.jpg",
     "static/media/03.jpg": "/react/static/media/03.c09b3ce8.jpg",
@@ -30,7 +30,7 @@
     "static/media/CssLess.module.css": "/react/static/media/cssBg.2c03cc18.jpg",
     "static/media/HtmlLess.module.css": "/react/static/media/htmlBg.35965b29.jpg",
     "static/media/JavaLess.module.css": "/react/static/media/javaBg.b7608a65.png",
-    "static/media/Hero.module.css": "/react/static/media/leninBg.ed69dc44.jpg",
+    "static/media/logo.svg": "/react/static/media/logo.d63cfefb.svg",
     "static/media/ReactLess.module.css": "/react/static/media/reactBg.518d4ccc.png",
     "static/media/severstal.jpg": "/react/static/media/severstal.3a3bc870.jpg",
     "static/media/slick-theme.css": "/react/static/media/slick.f97e3bbf.svg",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.cbcb79aa.js",
     "static/css/2.44ea01ec.chunk.css",
-    "static/js/2.7cb4b46b.chunk.js",
-    "static/css/main.df717166.chunk.css",
-    "static/js/main.2f9ce935.chunk.js"
+    "static/js/2.419ce53f.chunk.js",
+    "static/css/main.6e2d18a0.chunk.css",
+    "static/js/main.7990f97e.chunk.js"
   ]
 }
