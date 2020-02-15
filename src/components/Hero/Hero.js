@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../Hero/Hero.module.css';
 import { useSelector } from 'react-redux';
+import logo from '../../assets/images/logo.svg'
 
 export const Hero = () => {
   const svgs = useSelector(state => state.svgs)
@@ -20,7 +21,8 @@ export const Hero = () => {
         >
           <path d={svgs.scrollDown} />
         </svg>
-      <div className={styles.title}>Учиться,<br />учиться<br />и еще раз<br />УЧИТЬСЯ!!!</div>
+      {/* <div className={styles.title}>Учиться,<br />учиться<br />и еще раз<br />УЧИТЬСЯ!!!</div> */}
+      <img src={logo} className={styles.logo} alt='logo' />
     </div>
   )
 }
