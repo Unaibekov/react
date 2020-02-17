@@ -57,6 +57,13 @@
   font-weight: 300;
 }
 
+.title p {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
 .subtitle {
   text-align: left;
   color: white;
