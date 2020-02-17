@@ -7,6 +7,7 @@
 .header {
   margin: 0 auto;
   max-width: 1170px;
+  padding: 0 2%;
 }
 
 .headerTitle {
@@ -127,9 +128,6 @@
 
 
 @media (max-width: 575.98px) {
-  .header {
-    width: 100%;
-  }
 
   .slideContent {
     width: unset;
