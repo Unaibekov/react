@@ -3,9 +3,9 @@
 // import reactBg from '../assets/images/reactBg.png';
 // import javaBg from '../assets/images/javaBg.png';
 
-import outdoorAdv from '../assets/images/01.jpg';
-import inputGroups from '../assets/images/02.jpg';
-import largePrint from '../assets/images/03.jpg';
+import outdoor from '../assets/images/outdoor.svg';
+import inputGroups from '../assets/images/inputGroups.svg';
+import largePrint from '../assets/images/largePrint.svg';
 import souvenir from '../assets/images/04.jpg';
 import polygraphy from '../assets/images/05.jpg';
 import wallpaper from '../assets/images/06.jpg';
@@ -15,10 +15,10 @@ import prototyping from '../assets/images/08.jpg';
 export default () => {
     return [
         {
-            id: outdoorAdv,
+            id: outdoor,
             title: 'Наружная реклама',
             path: 'htmlless',
-            image: outdoorAdv
+            image: outdoor
         },
         {
             id: inputGroups,
@@ -36,19 +36,19 @@ export default () => {
             id: souvenir,
             title: 'Сувенирная продукция',
             path: 'reactless',
-            image: souvenir
+            image: largePrint
         },
         {
             id: polygraphy,
             title: 'Полиграфия',
             path: 'javaless',
-            image: polygraphy
+            image: inputGroups
         },
         {
             id: wallpaper,
             title: 'Фото-обои',
             path: 'reactless',
-            image: wallpaper
+            image: outdoor
         },
         {
             id: cmit,

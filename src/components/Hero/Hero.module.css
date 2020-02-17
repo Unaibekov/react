@@ -7,8 +7,8 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  margin: 1%;
-  border-radius: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .logo {
@@ -37,9 +37,6 @@
 @media (max-width: 575.98px) {
   .title {
     font-size: 60px;
-  }
-  .main {
-    margin: 2%;
   }
   .logo {
     width: 70%;
