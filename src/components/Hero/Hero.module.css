@@ -1,7 +1,5 @@
 .main {
-  /* background: url(../../assets/images/leninBg.jpg) no-repeat center center / cover; */
   background: url(../../assets/images/Hero.jpg) no-repeat center center / cover;
-  /* background: linear-gradient(180deg, #091b48 0%, rgba(42, 80, 65, 0.7) 100%), url(../../assets/images/Hero.jpg) no-repeat center center / cover; */
   height: 85vh;
   display: flex;
   align-items: center;

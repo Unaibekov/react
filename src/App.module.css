@@ -37,10 +37,7 @@
   z-index: 1;
   background: azure;
   padding: 5px 10px;
-  /* border-top-left-radius: 0px; */
-  /* border-top-right-radius: 0px; */
   border-radius: 10px;
-  box-shadow: -11px -7px 34px 6px #292287;
 }
 
 .menu path {

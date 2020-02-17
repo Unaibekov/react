@@ -54,13 +54,19 @@ export default () => {
             id: cmit,
             title: 'ЦМИТ-Имидж',
             path: 'htmlless',
-            image: cmit
+            image: outdoor
         },
         {
             id: prototyping,
             title: 'Прототипирование',
             path: 'cssless',
-            image: prototyping
+            image: inputGroups
+        },
+        {
+            id: prototyping,
+            title: 'Разное',
+            path: 'cssless',
+            image: largePrint
         }
         // {
         //   id: 1,
