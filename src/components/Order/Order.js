@@ -11,11 +11,11 @@ export const Order = () => {
         <div className={styles.orderRotated}>
           <div className={styles.orderContainer}>
             <input className={styles.input} type="text" placeholder="Введите Email" />
-            <div className={styles.title}>Записаться</div>
+            <div className={styles.title}>Отправить</div>
           </div>
         </div>
         <div className={styles.orderContainer}>
-          <div className={styles.title}>Записаться на обучение</div>
+          <div className={styles.title}>Сделать заявку</div>
           <svg
             width="100" height="100" viewBox="0 0 492 492"
             className={styles.arrowRight}>

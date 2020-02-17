@@ -1,12 +1,13 @@
 .orderContainer {
   position: relative;
-  padding: 30px 0;
+  padding: 20px 0;
   margin: 0 auto;
   width: 960px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  height: 70%;
 }
 
 .orderVisible {
@@ -61,6 +62,7 @@
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  margin-bottom: 0px;
 }
 
 .input::placeholder {
@@ -75,5 +77,10 @@ path {
   .orderContainer {
     flex-direction: column;
     width: 100%;
+  }
+
+  .input {
+    padding: 20px;
+    margin-bottom: 20px;
   }
 }
