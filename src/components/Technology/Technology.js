@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import Slider from "react-slick";
 import styles from '../Technology/Technology.module.css'
-import Cls from '../../assets/images/close.svg'
 import { useSelector } from "react-redux";
 
 export const Technology = () => {
@@ -20,15 +19,12 @@ export const Technology = () => {
     focusOnSelect: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
     speed: 1000,
-    // slickNext: false,
-    // slickPrev: false,
-    nextArrow: <Cls />,
-    prevArrow: <Cls />,
-
+    slickNext: true,
+    slickPrev: true,
   };
   return (
     <div className={styles.technology}>

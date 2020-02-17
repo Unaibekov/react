@@ -6,9 +6,9 @@
 import outdoor from '../assets/images/outdoor.svg';
 import inputGroups from '../assets/images/inputGroups.svg';
 import largePrint from '../assets/images/largePrint.svg';
-import souvenir from '../assets/images/04.jpg';
-import polygraphy from '../assets/images/05.jpg';
-import wallpaper from '../assets/images/06.jpg';
+import souvenir from '../assets/images/souvenir.svg';
+import polygraphy from '../assets/images/polygraphy.svg';
+import wallpaper from '../assets/images/wallpaper.svg';
 import cmit from '../assets/images/07.jpg';
 import prototyping from '../assets/images/08.jpg';
 
@@ -36,19 +36,19 @@ export default () => {
             id: souvenir,
             title: 'Сувенирная продукция',
             path: 'reactless',
-            image: largePrint
+            image: souvenir
         },
         {
             id: polygraphy,
             title: 'Полиграфия',
             path: 'javaless',
-            image: inputGroups
+            image: polygraphy
         },
         {
             id: wallpaper,
             title: 'Фото-обои',
             path: 'reactless',
-            image: outdoor
+            image: wallpaper
         },
         {
             id: cmit,
