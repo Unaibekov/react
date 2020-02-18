@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.b529dee2.chunk.css",
-    "main.js": "/react/static/js/main.6038835c.chunk.js",
-    "main.js.map": "/react/static/js/main.6038835c.chunk.js.map",
+    "main.css": "/react/static/css/main.9df697b8.chunk.css",
+    "main.js": "/react/static/js/main.7b842918.chunk.js",
+    "main.js.map": "/react/static/js/main.7b842918.chunk.js.map",
     "runtime-main.js": "/react/static/js/runtime-main.cbcb79aa.js",
     "runtime-main.js.map": "/react/static/js/runtime-main.cbcb79aa.js.map",
     "static/css/2.44ea01ec.chunk.css": "/react/static/css/2.44ea01ec.chunk.css",
     "static/js/2.07eceb08.chunk.js": "/react/static/js/2.07eceb08.chunk.js",
     "static/js/2.07eceb08.chunk.js.map": "/react/static/js/2.07eceb08.chunk.js.map",
     "index.html": "/react/index.html",
-    "precache-manifest.29787cde7d76e2bc98db068a025f3f69.js": "/react/precache-manifest.29787cde7d76e2bc98db068a025f3f69.js",
+    "precache-manifest.41a8c760d059426142919079399f9fa6.js": "/react/precache-manifest.41a8c760d059426142919079399f9fa6.js",
     "service-worker.js": "/react/service-worker.js",
     "static/css/2.44ea01ec.chunk.css.map": "/react/static/css/2.44ea01ec.chunk.css.map",
-    "static/css/main.b529dee2.chunk.css.map": "/react/static/css/main.b529dee2.chunk.css.map",
+    "static/css/main.9df697b8.chunk.css.map": "/react/static/css/main.9df697b8.chunk.css.map",
     "static/js/2.07eceb08.chunk.js.LICENSE": "/react/static/js/2.07eceb08.chunk.js.LICENSE",
     "static/media/07.jpg": "/react/static/media/07.cd74f686.jpg",
     "static/media/08.jpg": "/react/static/media/08.91d97978.jpg",
@@ -24,25 +24,25 @@
     "static/media/alfa.jpg": "/react/static/media/alfa.040cc595.jpg",
     "static/media/CssLess.module.css": "/react/static/media/cssBg.2c03cc18.jpg",
     "static/media/HtmlLess.module.css": "/react/static/media/htmlBg.35965b29.jpg",
-    "static/media/inputGroups.svg": "/react/static/media/inputGroups.0493646d.svg",
+    "static/media/inputGroups.svg": "/react/static/media/inputGroups.56d3cd09.svg",
     "static/media/JavaLess.module.css": "/react/static/media/javaBg.b7608a65.png",
-    "static/media/largePrint.svg": "/react/static/media/largePrint.81722443.svg",
+    "static/media/largePrint.svg": "/react/static/media/largePrint.7f920dd6.svg",
     "static/media/logo.svg": "/react/static/media/logo.d63cfefb.svg",
     "static/media/mimakiCG100.png": "/react/static/media/mimakiCG100.a59eb41d.png",
-    "static/media/outdoor.svg": "/react/static/media/outdoor.279ca7cc.svg",
-    "static/media/polygraphy.svg": "/react/static/media/polygraphy.56405680.svg",
+    "static/media/outdoor.svg": "/react/static/media/outdoor.69a89c39.svg",
+    "static/media/polygraphy.svg": "/react/static/media/polygraphy.40572513.svg",
     "static/media/ReactLess.module.css": "/react/static/media/reactBg.518d4ccc.png",
     "static/media/severstal.jpg": "/react/static/media/severstal.3a3bc870.jpg",
     "static/media/slick-theme.css": "/react/static/media/slick.f97e3bbf.svg",
-    "static/media/souvenir.svg": "/react/static/media/souvenir.db97b2c4.svg",
+    "static/media/souvenir.svg": "/react/static/media/souvenir.6f6f86a7.svg",
     "static/media/taif.jpg": "/react/static/media/taif.c101506b.jpg",
-    "static/media/wallpaper.svg": "/react/static/media/wallpaper.01c8bc53.svg"
+    "static/media/wallpaper.svg": "/react/static/media/wallpaper.72f103bd.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cbcb79aa.js",
     "static/css/2.44ea01ec.chunk.css",
     "static/js/2.07eceb08.chunk.js",
-    "static/css/main.b529dee2.chunk.css",
-    "static/js/main.6038835c.chunk.js"
+    "static/css/main.9df697b8.chunk.css",
+    "static/js/main.7b842918.chunk.js"
   ]
 }
