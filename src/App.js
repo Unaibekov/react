@@ -101,9 +101,9 @@ class App extends React.Component {
           </SideBar>
         </Provider>
         <Dots 
-          background='radial-gradient(circle, rgba(93,108,255,1) 0%, rgba(84,75,208,1) 100%)'
+          background='rgba(36,55,67,1)'
           animation='slide-down'
-          color='white'
+          color='#99CC33'
           />
       </Router>
     );

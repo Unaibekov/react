@@ -12,7 +12,7 @@
 
 .orderVisible {
   position: relative;
-  background: #454eff;
+  background: #368a08;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -32,7 +32,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #8e26c6;
+  background: #243743;
   -webkit-transform: rotateX(90deg) translateZ(0);
   transform: rotateX(90deg) translateZ(0);
   -webkit-transform-origin: 50% 100%;
@@ -66,7 +66,7 @@
 }
 
 .input::placeholder {
-  color: #8e26c6;
+  color: #368a08;
 }
 
 path {

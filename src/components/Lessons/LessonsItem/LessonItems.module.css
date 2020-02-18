@@ -6,7 +6,7 @@
   align-items: flex-start;
   transition: all 0.3s ease-in-out;
   position: relative;
-  background: #4840ba;
+  background: #31434e;
   border-radius: 3px;
   padding: 15px;
   margin-bottom: 10px;
@@ -14,10 +14,10 @@
 }
 
 .item:hover {
-  box-shadow: 0px 25px 22px -20px rgba(0, 136, 255, 0.7);
+  box-shadow: 0px 0px 60px -10px rgba(123, 255, 83, 0.5);
   transition: all 0.3s ease-in-out;
+  z-index: 1;
 }
-
 
 .item:hover .line {
   width: 100%;
@@ -45,7 +45,7 @@
 }
 
 .item:hover div {
-  color: #03F7EA;
+  color: #7bff53;
   transform: translateY(-25%);
   transition: all 0.3s ease-in-out;
 }
@@ -85,19 +85,13 @@
   height: 5px;
   border-radius: 10px;
   display: block;
-  background: linear-gradient(
-    45deg,
-    rgba(0, 129, 255, 1) 0%,
-    rgb(0, 247, 255) 100%
-  );
+  background: linear-gradient(45deg, #7bff53 0%, #99cc33 100%);
   bottom: 0px;
   left: 0;
   width: 0%;
   transition: width 0.3s;
   position: absolute;
   z-index: 9;
-box-shadow: 0px 25px 22px -20px rgba(0, 136, 255, 0.7);
-
 }
 
 @media (max-width: 575.98px) {
